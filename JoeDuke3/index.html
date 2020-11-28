@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Duke's Portfolio</title>
+</head>
+
+<body>
+
+        <!-- NAVIGATION -->
+
+        <div class="navbar">
+
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <!-- BACKGROUND VIDEO -->
+
+    <div id="home">
+
+        <video autoplay muted loop id="spotlights_video">
+            <source src="./video/spotlights.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+        </video>
+
+        <!-- VIDEO TEXT -->
+
+        <div class="video_text">
+
+        <!-- INTRO TEXT -->
+
+            <h1 class="greeting">
+                My name is JD. 
+                <br>
+                Welcome to my portfolio website. 
+                <br>
+                On it, I will tell you about 
+                my background and experience. 
+                <br><br>
+                Thank you for stopping by 
+                and I hope to work with you soon.
+
+        <!-- QUOTE -->
+
+            <p class="gonzo">
+                "The music business is 
+                a cruel and shallow money trench, 
+                <br>
+                a long plastic hallway 
+                where thieves and pimps run free, 
+                and good men die like dogs... 
+                <br><br>
+                There's also a negative side."
+                <br><br><br><br><br>
+                -Hunter S. Thompson
+            </p>
+        </div>
+    </div>
+
+
+        <!-- ABOUT SECTION -->
+
+    <div class="row" id="about">
+
+        <!-- LEFT COLUMN -->
+
+        <div class="column_2">
+
+            <img src="images/myOffice.jpg" alt="View of a stage">
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+
+        <div class="column_1">
+
+            <h1>About</h1>
+
+            <p>In the old normal I designed, 
+                programmed and operated light shows 
+                while crew cheifing and 
+                managing the stage for rock concerts. 
+                When it became illegal to have fun 
+                I had to find something else to do. 
+                Now I develop websites and software.
+            </P>
+            <br><br>
+            <p>
+                I am enrolled in 
+                <a href="https://www.learncodinganywhere.com" 
+                target="blank">
+                    The Tech Academy</a>
+                's Software Developer Boot Camp, 
+                and gaining experience in the following 
+                web and programming languages: 
+                HTML, CSS, JavaScript, Python, 
+                MySQL, C#, .NET and more.
+                <br><br>
+                <a href="#contact">Contact</a> 
+                me below!
+            </p>
+        </div>
+    </div>
+
+        <!-- GITHUB SECTION -->
+
+    <div class="row" id="github">
+
+        <!-- LEFT COLUMN -->
+
+        <div class="column_1">
+
+            <h1 class="github">
+                GitHub
+            </h1>
+
+            <h2 class="github">
+                You can view my code on my GitHub profile here:
+            </h2>
+
+            <h2 class="github">
+                <a href="https://github.com/Joe-Duke-3">Joe Duke Github</a>
+            </h2>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+
+        <div class="column_2">
+
+        <!-- GITHUB LOGO -->
+
+            <a href="https://github.com/Joe-Duke-3" target="blank">
+                <img src="./images/GitHubLogo.png" alt="GitHub Logo">
+            </a>
+
+        </div>
+    </div>
+
+        <!-- CONTACT SECTION -->
+
+    <div class="row" id="contact">
+
+        <!-- LEFT COLUMN~~~CONTACT IMAGE -->
+
+        <div class="column_2">
+
+            <img src="./images/neonMail.jpg" 
+            alt="A neon sign designed to look like an envelope.">
+
+        </div>
+
+        <div class="column_1">
+
+        <!-- RIGHT COLUMN~~~CONTACT FORM -->
+
+            <h1>Contact</h1>
+
+<!-- =================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                    NSA USE ONLY
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================================= -->
+
+        <!-- CONTACT FORM: ROUTE THRU FORMSPREE.IO -->
+
+            <form action="https://formspree.io/f/mvovbzoy" method="POST">
+
+                <label>Name:</label>
+                    <input type="text" 
+                    placeholder="Please enter your name here">
+
+                <label>Email</label>
+                    <input type="text" id="email" name="Email" 
+                    placeholder="Please enter your Email here">
+
+                <label>Message</label>
+                    <input type="text" id="message" name="Message" 
+                    placeholder="Please write your message here">
+
+                    <input type="Submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <footer>
+
+        <p class="center">
+            &copy; Fukov Enterprises, LLC
+            <a href="#">gijd.com</a>
+
+        </p>
+    </footer>
+</body>
+</html>
